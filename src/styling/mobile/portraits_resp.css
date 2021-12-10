@@ -1,0 +1,197 @@
+@media all and (max-width: 1995px) {
+  #portraitsTop {
+    height: 500px;
+  }
+  #portraitsTop .portraits-top-cnt h2 {
+    font-size: 50px;
+  }
+  #portraitsTop .portraits-top-cnt p {
+    font-size: 18px;
+  }
+  #portraitsTop .portraits-top-cnt span {
+    font-size: 16px;
+  }
+  #portraitsMain
+    .portraits-main-cnt
+    .portraits-main-cnt-box
+    .portraits-main-cnt-row
+    .portraits-main-cnt-item {
+    height: 500px;
+    margin-bottom: 10px !important;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #portraitsTop {
+    height: 500px;
+  }
+  #portraitsTop .portraits-top-cnt h2 {
+    font-size: 40px;
+  }
+  #portraitsTop .portraits-top-cnt p {
+    font-size: 16px;
+  }
+  #portraitsTop .portraits-top-cnt span {
+    font-size: 15px;
+  }
+  #portraitsTop .portraits-top-cnt div {
+    max-width: 400px;
+  }
+  #portraitsMain
+    .portraits-main-cnt
+    .portraits-main-cnt-box
+    .portraits-main-cnt-row
+    .portraits-main-cnt-item {
+    max-width: 50%;
+    width: 100%;
+    height: 400px;
+  }
+  #portraitsModals .portraits-modal .portraits-modal-main {
+    max-width: 90%;
+  }
+  #portraitsModals
+    .portraits-modal
+    .portraits-modal-main
+    .portraits-modal-main-cnt,
+  #portraitsModals .portraits-modal .portraits-modal-main {
+    height: 600px;
+    margin: auto !important;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media all and (max-width: 768px) {
+  #portraitsTop .portraits-top-cnt h2 {
+    font-size: 30px;
+  }
+  #portraitsTop .portraits-top-cnt p {
+    font-size: 16px;
+    max-width: 80%;
+    margin: auto !important;
+  }
+  #portraitsTop .portraits-top-cnt span {
+    font-size: 15px;
+  }
+  #portraitsTop .portraits-top-cnt div {
+    max-width: 240px;
+    flex-wrap: wrap;
+  }
+  #portraitsTop .portraits-top-cnt div a {
+    font-size: 14px;
+    margin-top: 10px !important;
+  }
+  #portraitsMain
+    .portraits-main-cnt
+    .portraits-main-cnt-box
+    .portraits-main-cnt-row
+    .portraits-main-cnt-item {
+    max-width: 100%;
+    width: 100%;
+    height: 350px;
+  }
+  #portraitsModals .portraits-modal .portraits-modal-main {
+    max-width: 90%;
+  }
+  #portraitsModals
+    .portraits-modal
+    .portraits-modal-main
+    .portraits-modal-main-cnt,
+  #portraitsModals .portraits-modal .portraits-modal-main {
+    height: 440px;
+    margin: auto !important;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #portraitsTop {
+    height: 400px;
+  }
+  #portraitsTop .portraits-top-cnt div {
+    max-width: 400px;
+  }
+  #portraitsMain
+    .portraits-main-cnt
+    .portraits-main-cnt-box
+    .portraits-main-cnt-row
+    .portraits-main-cnt-item {
+    max-width: 50%;
+    width: 100%;
+    height: 300px;
+  }
+  #portraitsModals .portraits-modal .portraits-modal-main {
+    max-width: 55%;
+  }
+  #portraitsModals
+    .portraits-modal
+    .portraits-modal-main
+    .portraits-modal-main-cnt,
+  #portraitsModals .portraits-modal .portraits-modal-main {
+    height: 300px;
+    margin: auto !important;
+  }
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  #portraitsModals .portraits-modal .portraits-modal-main {
+    max-width: 65%;
+  }
+  #portraitsModals
+    .portraits-modal
+    .portraits-modal-main
+    .portraits-modal-main-cnt,
+  #portraitsModals .portraits-modal .portraits-modal-main {
+    height: 900px;
+    margin: auto !important;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #portraitsModals .portraits-modal .portraits-modal-main {
+    max-width: 35%;
+  }
+  #portraitsModals
+    .portraits-modal
+    .portraits-modal-main
+    .portraits-modal-main-cnt,
+  #portraitsModals .portraits-modal .portraits-modal-main {
+    height: 400px;
+    margin: auto !important;
+  }
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #portraitsModals .portraits-modal .portraits-modal-main {
+    max-width: 65%;
+  }
+  #portraitsModals
+    .portraits-modal
+    .portraits-modal-main
+    .portraits-modal-main-cnt,
+  #portraitsModals .portraits-modal .portraits-modal-main {
+    height: 900px;
+    margin: auto !important;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #portraitsModals .portraits-modal .portraits-modal-main {
+    max-width: 45%;
+  }
+  #portraitsModals
+    .portraits-modal
+    .portraits-modal-main
+    .portraits-modal-main-cnt,
+  #portraitsModals .portraits-modal .portraits-modal-main {
+    height: 900px;
+    margin: auto !important;
+  }
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+}

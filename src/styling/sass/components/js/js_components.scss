@@ -1,0 +1,61 @@
+@import "../../abstracts/abstracts-dir.scss";
+@import "../../base/base-dir.scss";
+@import "../../themes/themes-dir.scss";
+
+//! Page Loader
+#pageLoaderHolder {
+  #pageLoaderClickBlocker {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1010;
+  }
+
+  #pageLoaderMain {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: ghostwhite;
+    display: grid;
+    @include tLCenter;
+    z-index: 1020;
+
+    #pageLoaderMainCnt {
+      span {
+        font-family: $M;
+        font-weight: $MBold;
+        font-size: 50px;
+        display: block;
+        text-align: center;
+      }
+
+      div {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 30px !important;
+        flex-wrap: wrap;
+
+        p {
+          font-family: $M;
+          font-weight: $MBold;
+          font-size: 20px;
+          padding: 10px !important;
+        }
+
+        button {
+          background-color: $AzureRadiance;
+          color: white;
+          font-family: $M;
+          font-weight: $MSemi;
+          padding: 10px !important;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

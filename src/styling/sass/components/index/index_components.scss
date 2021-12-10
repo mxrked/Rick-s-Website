@@ -1,0 +1,427 @@
+@import "../../abstracts/abstracts-dir.scss";
+@import "../../base/base-dir.scss";
+@import "../../themes/themes-dir.scss";
+
+//! Top
+#indexTop {
+  position: relative;
+  width: 100%;
+  height: 1200px;
+
+  //   background-color: red;
+
+  .slick-slider {
+    width: 100% !important;
+    height: 100% !important;
+
+    .slick-dots {
+      bottom: 30px;
+      z-index: 300;
+
+      li {
+        &:nth-child(even) {
+          margin-left: 15px !important;
+          margin-right: 15px !important;
+        }
+
+        button {
+          &::before {
+            color: white;
+            font-size: 30px;
+          }
+        }
+      }
+    }
+
+    .slick-slide {
+      position: relative;
+      height: 1200px !important;
+      top: 0;
+      left: 0;
+      background-color: ghostwhite;
+
+      .index-top-slide-bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+        @include bGSU;
+      }
+
+      #iTS1 {
+        background-position: 0% 20%;
+      }
+      #iTS2 {
+        background-position: 0% 20%;
+      }
+      #iTS3 {
+        background-position: 0% 10%;
+      }
+    }
+  }
+
+  .index-top-cnt-main {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    @include tLCenter;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: white;
+
+    .index-top-cnt-main-inner {
+      h2 {
+        font-family: $PB;
+        font-size: clamp(8rem, 7vw, 8rem);
+      }
+
+      h5 {
+        font-family: $M;
+        font-weight: $MBold;
+        font-size: clamp(2rem, 3vw, 3rem);
+        padding-bottom: 40px !important;
+      }
+
+      div {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 500px;
+        @include qCenter;
+
+        a {
+          background-color: $AzureRadiance;
+          color: white;
+          font-family: $M;
+          font-weight: $MSemi;
+          font-size: 30px;
+          padding: 10px !important;
+          cursor: pointer;
+
+          &:hover {
+            background-color: $DodgerBlue;
+          }
+        }
+      }
+    }
+  }
+}
+
+//! Info
+#indexInfo {
+  @include sectSpacing;
+  @include qCenter;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  height: 600px;
+  @include bGSU;
+  background-attachment: fixed !important;
+  position: relative;
+  max-width: 94.6%;
+
+  .index-info-cnt {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    @include tLCenter;
+    text-align: center;
+    color: white;
+
+    .index-info-cnt-top {
+      height: 400px;
+      @include tLCenter;
+      h2 {
+        font-family: $PB;
+        font-size: clamp(5rem, 6vw, 6rem);
+      }
+
+      p {
+        font-family: $M;
+        font-weight: $MReg;
+        max-width: 80%;
+        padding-top: 20px !important;
+        @include qCenter;
+      }
+    }
+
+    .index-info-cnt-sub {
+      height: 200px;
+      width: 100%;
+
+      div {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 200px;
+        @include qCenter;
+
+        a {
+          font-size: 40px;
+          color: white;
+
+          &:hover {
+            color: $AzureRadiance;
+          }
+        }
+      }
+    }
+  }
+}
+
+//! Portfolio
+#indexPortfolio {
+  position: relative;
+  @include sectSpacing;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  height: 550px;
+
+  .slick-slider {
+    width: 100%;
+    max-width: 94.6%;
+    position: absolute;
+    transform: translate(-50%, 0);
+    top: 0;
+    left: 50%;
+    height: 550px;
+    background-color: ghostwhite;
+    overflow: hidden;
+
+    .slick-prev {
+      left: 0% !important;
+      z-index: 1;
+      background-color: rgba(0, 0, 0, 0.178);
+      width: 100%;
+      height: 100%;
+      max-width: 80px;
+      transition: 0.3s ease-in-out;
+
+      &::before {
+        color: white;
+        font-size: 40px;
+      }
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.335);
+      }
+    }
+    .slick-next {
+      right: 0% !important;
+      z-index: 1;
+      background-color: rgba(0, 0, 0, 0.178);
+      width: 100%;
+      height: 100%;
+      max-width: 80px;
+      transition: 0.3s ease-in-out;
+
+      &::before {
+        color: white;
+        font-size: 40px;
+      }
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.335);
+      }
+    }
+
+    .index-portfolio-slide {
+      width: 100%;
+      height: 550px;
+      position: relative;
+      z-index: 10;
+      @include bGSU;
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      .index-portfolio-slide-cnt {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0%;
+        left: 0;
+        @include tLCenter;
+        background-color: rgba(0, 0, 0, 0.657);
+        cursor: pointer;
+
+        button {
+          display: block;
+          padding: 10px !important;
+          background-color: transparent;
+          color: white;
+          border: 2px solid white !important;
+          font-family: $M;
+          font-weight: $MBold;
+          font-size: 27px;
+
+          &:hover {
+            color: black;
+            background-color: white;
+          }
+        }
+      }
+    }
+
+    #IPS1 {
+      background-position: 0 40%;
+    }
+    #IPS2 {
+      background-position: 0 30%;
+    }
+    #IPS3 {
+      background-position: 0 20%;
+    }
+    #IPS4 {
+      background-position: 0 20%;
+    }
+    #IPS5 {
+      background-position: 0 40%;
+    }
+  }
+
+  #indexModals {
+    position: relative;
+    z-index: 600;
+    .index-modal {
+      .index-modal-darken {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.657);
+        cursor: pointer;
+      }
+
+      .index-modal-main {
+        width: 100%;
+        height: 600px;
+        max-width: 1000px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        // background-color: red;
+        @include tLCenter;
+
+        .index-modal-main-cnt {
+          width: 100%;
+          height: 600px;
+          background-color: white;
+          @include bGSU;
+        }
+      }
+    }
+  }
+}
+
+//! Services
+#indexServices {
+  position: relative;
+  @include sectSpacing;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+
+  .index-services-box {
+    max-width: 95%;
+    @include qCenter;
+
+    .index-services-row {
+      .index-service-item-holder {
+        @include tLCenter;
+        height: 450px;
+        padding: 5px !important;
+
+        .index-service-item {
+          position: relative;
+          overflow: hidden;
+          height: 100%;
+          width: 100%;
+          cursor: pointer;
+
+          &:hover {
+            .index-service-item-bg {
+              transform: scale(1.05);
+            }
+
+            .index-service-item-cnt {
+              background-color: rgba(0, 0, 0, 0.657);
+
+              .index-service-item-cnt-inner {
+                div {
+                  p {
+                    color: black;
+                    background-color: white;
+                  }
+                }
+              }
+            }
+          }
+
+          .index-service-item-bg {
+            @include bGSU;
+            background-size: 105% !important;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: 0.3s ease-in-out;
+          }
+
+          .index-service-item-cnt {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            height: 100%;
+            z-index: 100;
+            background-color: rgba(0, 0, 0, 0.435);
+            @include tLCenter;
+
+            .index-service-item-cnt-inner {
+              display: grid;
+              text-align: center;
+              color: white;
+              span {
+                font-size: 50px;
+                font-family: $M;
+                font-weight: $MBold;
+                text-transform: uppercase;
+              }
+
+              div {
+                padding-top: 30px !important;
+                p {
+                  border: 2px solid white;
+                  font-family: $M;
+                  font-weight: $MSemi;
+                  font-size: 24px;
+                  color: white;
+                  padding: 10px !important;
+                  max-width: 110px;
+                  @include qCenter;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.blur-up {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  transition: filter 3000ms 500ms, -webkit-filter 3000ms 500ms;
+}
+.blur-up.lazyloaded {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}

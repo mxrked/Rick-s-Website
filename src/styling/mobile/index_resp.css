@@ -1,0 +1,493 @@
+@media all and (max-width: 1995px) {
+  #indexTop,
+  #indexTop .slick-slider .slick-slide,
+  #indexTop .slick-slider .slick-slide .index-top-slide-bg,
+  #indexTop .index-top-cnt-main {
+    height: 800px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner {
+    padding-top: 50px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner h2 {
+    font-size: 60px;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner h5 {
+    font-size: 30px;
+    max-width: 100%;
+    margin: auto !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner div {
+    max-width: 300px;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner div a {
+    margin: 10px !important;
+    font-size: 20px;
+  }
+  #indexTop .slick-slider .slick-dots li button::before {
+    font-size: 25px !important;
+  }
+  #indexInfo {
+    margin-top: 18px !important;
+    margin-bottom: 15px !important;
+    max-width: 98%;
+  }
+  #indexInfo .index-info-cnt .index-info-cnt-top h2 {
+    font-size: 70px;
+  }
+  #indexServices
+    .index-services-box
+    .index-services-row
+    .index-service-item-holder
+    .index-service-item
+    .index-service-item-bg {
+    background-size: cover !important;
+  }
+  #indexServices
+    .index-services-box
+    .index-services-row
+    .index-service-item-holder
+    .index-service-item
+    .index-service-item-cnt
+    .index-service-item-cnt-inner
+    span {
+    font-size: 35px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #indexTop,
+  #indexTop .slick-slider .slick-slide,
+  #indexTop .slick-slider .slick-slide .index-top-slide-bg,
+  #indexTop .index-top-cnt-main {
+    height: 500px;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner h2 {
+    font-size: 60px;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner h5 {
+    font-size: 30px;
+    max-width: 100%;
+    margin: auto !important;
+    padding-top: 10px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner div {
+    max-width: 300px;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner div a {
+    margin: 10px !important;
+    font-size: 20px;
+  }
+  #indexInfo {
+    height: 450px;
+    margin-bottom: 5px !important;
+  }
+  #indexInfo .index-info-cnt .index-info-cnt-top {
+    height: 300px;
+  }
+  #indexInfo .index-info-cnt .index-info-cnt-top h2 {
+    font-size: 50px;
+  }
+  #indexInfo .index-info-cnt .index-info-cnt-top p {
+    font-size: 16px;
+  }
+  #indexInfo .index-info-cnt .index-info-cnt-sub div {
+    padding-bottom: 10px !important;
+  }
+  #indexInfo .index-info-cnt .index-info-cnt-sub div a {
+    font-size: 33px;
+  }
+  #indexPortfolio {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    height: 400px;
+  }
+  #indexPortfolio .slick-slider .index-portfolio-slide {
+    background-position: center !important;
+  }
+  #indexPortfolio .slick-slider {
+    max-width: 98%;
+    height: 400px;
+  }
+  #indexPortfolio .slick-slider .index-portfolio-slide {
+    height: 400px;
+  }
+  #indexServices {
+    margin-top: 0px !important;
+    margin-bottom: 5px !important;
+  }
+  #indexServices
+    .index-services-box
+    .index-services-row
+    .index-service-item-holder {
+    height: 320px;
+  }
+  #indexServices
+    .index-services-box
+    .index-services-row
+    .index-service-item-holder
+    .index-service-item
+    .index-service-item-cnt
+    .index-service-item-cnt-inner
+    span {
+    font-size: 27px;
+  }
+  #indexServices
+    .index-services-box
+    .index-services-row
+    .index-service-item-holder
+    .index-service-item
+    .index-service-item-cnt
+    .index-service-item-cnt-inner
+    div {
+    padding-top: 5px !important;
+  }
+  #indexServices
+    .index-services-box
+    .index-services-row
+    .index-service-item-holder
+    .index-service-item
+    .index-service-item-cnt
+    .index-service-item-cnt-inner
+    div
+    p {
+    font-size: 18px;
+    padding: 5px !important;
+    max-width: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media all and (max-width: 768px) {
+  #indexTop,
+  #indexTop .slick-slider .slick-slide,
+  #indexTop .slick-slider .slick-slide .index-top-slide-bg,
+  #indexTop .index-top-cnt-main {
+    height: 450px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner {
+    padding-top: 40px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner h2 {
+    font-size: 32px;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner h5 {
+    font-size: 23px;
+    max-width: 65%;
+    margin: auto !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner div {
+    max-width: 230px;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner div a {
+    margin: 10px !important;
+    font-size: 15px;
+  }
+  #indexTop .slick-slider .slick-dots li button::before {
+    font-size: 19px !important;
+  }
+  #indexInfo {
+    height: 350px;
+    margin-top: 5px !important;
+  }
+  #indexInfo .index-info-cnt .index-info-cnt-top {
+    height: 100%;
+    padding-top: 20px !important;
+  }
+  #indexInfo .index-info-cnt .index-info-cnt-top h2 {
+    font-size: 23px;
+  }
+  #indexInfo .index-info-cnt .index-info-cnt-top p {
+    font-size: 13px;
+    max-width: 90%;
+  }
+  #indexInfo .index-info-cnt .index-info-cnt-sub {
+    height: 100%;
+    padding-top: 10px !important;
+  }
+  #indexInfo .index-info-cnt .index-info-cnt-sub div a {
+    font-size: 26px;
+  }
+  #indexPortfolio,
+  #indexPortfolio .slick-slider .index-portfolio-slide,
+  #indexPortfolio .slick-slider {
+    height: 310px;
+  }
+  #indexPortfolio .slick-slider .index-portfolio-slide {
+    background-position: center !important;
+  }
+  #indexPortfolio .slick-slider .slick-next {
+    max-width: 50px;
+  }
+  #indexPortfolio .slick-slider .slick-prev {
+    max-width: 50px;
+  }
+  #indexPortfolio
+    #indexModals
+    .index-modal
+    .index-modal-main
+    .index-modal-main-cnt,
+  #indexPortfolio #indexModals .index-modal .index-modal-main {
+    height: 300px;
+  }
+  #indexPortfolio #indexModals .index-modal .index-modal-main {
+    max-width: 95% !important;
+  }
+  #indexServices .index-services-box {
+    max-width: 99%;
+  }
+  #indexServices
+    .index-services-box
+    .index-services-row
+    .index-service-item-holder {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    padding-bottom: 0 !important;
+    height: 210px;
+  }
+  #indexServices
+    .index-services-box
+    .index-services-row
+    .index-service-item-holder
+    .index-service-item
+    .index-service-item-cnt
+    .index-service-item-cnt-inner
+    span {
+    line-height: 20px;
+    font-size: 21px;
+    padding-bottom: 10px !important;
+  }
+  #indexServices
+    .index-services-box
+    .index-services-row
+    .index-service-item-holder
+    .index-service-item
+    .index-service-item-cnt
+    .index-service-item-cnt-inner
+    div {
+    padding-top: 5px !important;
+  }
+  #indexServices
+    .index-services-box
+    .index-services-row
+    .index-service-item-holder
+    .index-service-item
+    .index-service-item-cnt
+    .index-service-item-cnt-inner
+    div
+    p {
+    font-size: 14px;
+    padding: 5px !important;
+    max-width: 80px;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #indexTop,
+  #indexTop .slick-slider .slick-slide,
+  #indexTop .slick-slider .slick-slide .index-top-slide-bg,
+  #indexTop .index-top-cnt-main {
+    height: 340px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner {
+    padding-bottom: 20px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner h5 {
+    max-width: 100% !important;
+    font-size: 25px;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner div a {
+    font-size: 15px;
+    padding: 5px !important;
+  }
+  #indexTop .slick-slider .slick-dots li button::before {
+    font-size: 16px !important;
+  }
+  #indexPortfolio,
+  #indexPortfolio .slick-slider .index-portfolio-slide,
+  #indexPortfolio .slick-slider {
+    height: 270px;
+  }
+  #indexPortfolio
+    #indexModals
+    .index-modal
+    .index-modal-main
+    .index-modal-main-cnt,
+  #indexPortfolio #indexModals .index-modal .index-modal-main {
+    height: 250px;
+  }
+  #indexPortfolio #indexModals .index-modal .index-modal-main {
+    max-width: 85% !important;
+  }
+  #indexServices
+    .index-services-box
+    .index-services-row
+    .index-service-item-holder {
+    max-width: 50%;
+  }
+  #indexServices
+    .index-services-box
+    .index-services-row
+    .index-service-item-holder
+    .index-service-item
+    .index-service-item-cnt
+    .index-service-item-cnt-inner
+    span {
+    font-size: 17px;
+    max-width: 200px;
+    margin: auto !important;
+  }
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  #indexTop,
+  #indexTop .slick-slider .slick-slide,
+  #indexTop .slick-slider .slick-slide .index-top-slide-bg,
+  #indexTop .index-top-cnt-main {
+    height: 640px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner h2 {
+    font-size: 60px;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner h5 {
+    font-size: 33px;
+    max-width: 100%;
+    margin: auto !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #indexTop,
+  #indexTop .slick-slider .slick-slide,
+  #indexTop .slick-slider .slick-slide .index-top-slide-bg,
+  #indexTop .index-top-cnt-main {
+    height: 410px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner {
+    padding-top: 40px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner h2 {
+    font-size: 60px;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner h5 {
+    font-size: 33px;
+    max-width: 100%;
+    margin: auto !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner div a {
+    font-size: 17px;
+    padding: 10px !important;
+  }
+  #indexTop .slick-slider .slick-dots li button::before {
+    font-size: 18px !important;
+  }
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #indexTop,
+  #indexTop .slick-slider .slick-slide,
+  #indexTop .slick-slider .slick-slide .index-top-slide-bg,
+  #indexTop .index-top-cnt-main {
+    height: 610px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner {
+    padding-top: 60px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner h2 {
+    font-size: 70px;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner h5 {
+    font-size: 43px;
+    max-width: 100%;
+    margin: auto !important;
+    padding-top: 10px !important;
+    padding-bottom: 40px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner div {
+    max-width: 300px;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner div a {
+    font-size: 18px;
+    padding: 10px !important;
+  }
+  #indexTop .slick-slider .slick-dots li button::before {
+    font-size: 23px !important;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #indexTop,
+  #indexTop .slick-slider .slick-slide,
+  #indexTop .slick-slider .slick-slide .index-top-slide-bg,
+  #indexTop .index-top-cnt-main {
+    height: 640px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner {
+    padding-top: 40px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner h2 {
+    font-size: 60px;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner h5 {
+    font-size: 33px;
+    max-width: 100%;
+    margin: auto !important;
+    padding-top: 10px !important;
+    padding-bottom: 40px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner div {
+    max-width: 300px;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner div a {
+    font-size: 18px;
+    padding: 10px !important;
+  }
+  #indexTop .slick-slider .slick-dots li button::before {
+    font-size: 23px !important;
+  }
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  #indexTop,
+  #indexTop .slick-slider .slick-slide,
+  #indexTop .slick-slider .slick-slide .index-top-slide-bg,
+  #indexTop .index-top-cnt-main {
+    height: 700px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner {
+    padding-top: 40px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner h2 {
+    font-size: 70px;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner h5 {
+    font-size: 43px;
+    max-width: 100%;
+    margin: auto !important;
+    padding-top: 10px !important;
+    padding-bottom: 20px !important;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner div {
+    max-width: 300px;
+  }
+  #indexTop .index-top-cnt-main .index-top-cnt-main-inner div a {
+    font-size: 18px;
+    padding: 10px !important;
+  }
+  #indexTop .slick-slider .slick-dots li button::before {
+    font-size: 23px !important;
+  }
+}

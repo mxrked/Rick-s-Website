@@ -1,0 +1,24 @@
+@mixin bGSU() {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@mixin qCenter() {
+  margin: auto !important;
+}
+
+@mixin tLCenter() {
+  display: grid;
+  place-items: center;
+}
+
+@mixin sectSpacing() {
+  margin-top: 250px !important;
+  margin-bottom: 250px !important;
+}
+
+@mixin innerCntWidth() {
+  max-width: 85%;
+  @include qCenter();
+}

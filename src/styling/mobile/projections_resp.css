@@ -1,0 +1,197 @@
+@media all and (max-width: 1995px) {
+  #projectionsTop {
+    height: 500px;
+  }
+  #projectionsTop .projections-top-cnt h2 {
+    font-size: 50px;
+  }
+  #projectionsTop .projections-top-cnt p {
+    font-size: 18px;
+  }
+  #projectionsTop .projections-top-cnt span {
+    font-size: 16px;
+  }
+  #projectionsMain
+    .projections-main-cnt
+    .projections-main-cnt-box
+    .projections-main-cnt-row
+    .projections-main-cnt-item {
+    height: 500px;
+    margin-bottom: 10px !important;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #projectionsTop {
+    height: 500px;
+  }
+  #projectionsTop .projections-top-cnt h2 {
+    font-size: 40px;
+  }
+  #projectionsTop .projections-top-cnt p {
+    font-size: 16px;
+  }
+  #projectionsTop .projections-top-cnt span {
+    font-size: 15px;
+  }
+  #projectionsTop .projections-top-cnt div {
+    max-width: 400px;
+  }
+  #projectionsMain
+    .projections-main-cnt
+    .projections-main-cnt-box
+    .projections-main-cnt-row
+    .projections-main-cnt-item {
+    max-width: 50%;
+    width: 100%;
+    height: 400px;
+  }
+  #projectionsModals .projections-modal .projections-modal-main {
+    max-width: 90%;
+  }
+  #projectionsModals
+    .projections-modal
+    .projections-modal-main
+    .projections-modal-main-cnt,
+  #projectionsModals .projections-modal .projections-modal-main {
+    height: 600px;
+    margin: auto !important;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media all and (max-width: 768px) {
+  #projectionsTop .projections-top-cnt h2 {
+    font-size: 30px;
+  }
+  #projectionsTop .projections-top-cnt p {
+    font-size: 16px;
+    max-width: 80%;
+    margin: auto !important;
+  }
+  #projectionsTop .projections-top-cnt span {
+    font-size: 15px;
+  }
+  #projectionsTop .projections-top-cnt div {
+    max-width: 240px;
+    flex-wrap: wrap;
+  }
+  #projectionsTop .projections-top-cnt div a {
+    font-size: 14px;
+    margin-top: 10px !important;
+  }
+  #projectionsMain
+    .projections-main-cnt
+    .projections-main-cnt-box
+    .projections-main-cnt-row
+    .projections-main-cnt-item {
+    max-width: 100%;
+    width: 100%;
+    height: 350px;
+  }
+  #projectionsModals .projections-modal .projections-modal-main {
+    max-width: 90%;
+  }
+  #projectionsModals
+    .projections-modal
+    .projections-modal-main
+    .projections-modal-main-cnt,
+  #projectionsModals .projections-modal .projections-modal-main {
+    height: 440px;
+    margin: auto !important;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #projectionsTop {
+    height: 400px;
+  }
+  #projectionsTop .projections-top-cnt div {
+    max-width: 400px;
+  }
+  #projectionsMain
+    .projections-main-cnt
+    .projections-main-cnt-box
+    .projections-main-cnt-row
+    .projections-main-cnt-item {
+    max-width: 50%;
+    width: 100%;
+    height: 300px;
+  }
+  #projectionsModals .projections-modal .projections-modal-main {
+    max-width: 55%;
+  }
+  #projectionsModals
+    .projections-modal
+    .projections-modal-main
+    .projections-modal-main-cnt,
+  #projectionsModals .projections-modal .projections-modal-main {
+    height: 300px;
+    margin: auto !important;
+  }
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  #projectionsModals .projections-modal .projections-modal-main {
+    max-width: 65%;
+  }
+  #projectionsModals
+    .projections-modal
+    .projections-modal-main
+    .projections-modal-main-cnt,
+  #projectionsModals .projections-modal .projections-modal-main {
+    height: 900px;
+    margin: auto !important;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #projectionsModals .projections-modal .projections-modal-main {
+    max-width: 35%;
+  }
+  #projectionsModals
+    .projections-modal
+    .projections-modal-main
+    .projections-modal-main-cnt,
+  #projectionsModals .projections-modal .projections-modal-main {
+    height: 400px;
+    margin: auto !important;
+  }
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #projectionsModals .projections-modal .projections-modal-main {
+    max-width: 65%;
+  }
+  #projectionsModals
+    .projections-modal
+    .projections-modal-main
+    .projections-modal-main-cnt,
+  #projectionsModals .projections-modal .projections-modal-main {
+    height: 900px;
+    margin: auto !important;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #projectionsModals .projections-modal .projections-modal-main {
+    max-width: 45%;
+  }
+  #projectionsModals
+    .projections-modal
+    .projections-modal-main
+    .projections-modal-main-cnt,
+  #projectionsModals .projections-modal .projections-modal-main {
+    height: 900px;
+    margin: auto !important;
+  }
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+}

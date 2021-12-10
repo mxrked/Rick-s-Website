@@ -1,0 +1,177 @@
+@import "../../abstracts/abstracts-dir.scss";
+@import "../../base/base-dir.scss";
+@import "../../themes/themes-dir.scss";
+
+//! About Top
+#aboutTop {
+  height: 700px;
+  width: 100%;
+  @include tLCenter;
+
+  .about-top-cnt {
+    width: 100%;
+    text-align: center;
+
+    h2 {
+      font-family: $M;
+      font-weight: $MBold;
+      font-size: 70px;
+    }
+
+    blockquote {
+      font-family: $M;
+      font-weight: $MReg;
+      font-size: 23px;
+      padding-top: 20px !important;
+      padding-bottom: 50px !important;
+    }
+
+    span {
+      font-family: $M;
+      font-weight: $MSemi;
+      font-size: 20px;
+    }
+
+    div {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      max-width: 600px;
+      padding-top: 30px !important;
+      @include qCenter;
+
+      a {
+        background-color: $AzureRadiance;
+        color: white;
+        font-family: $M;
+        font-weight: $MSemi;
+        font-size: 16px;
+        padding: 10px !important;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $DodgerBlue;
+        }
+      }
+    }
+  }
+}
+
+//! About Main
+#aboutMain {
+  @include sectSpacing;
+  margin-top: 40px !important;
+  margin-bottom: 140px !important;
+
+  .about-main-top {
+    width: 100%;
+    padding-bottom: 150px !important;
+
+    .about-main-top-cnt {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      max-width: 700px;
+      @include qCenter;
+
+      .about-main-top-cnt-span-holder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 50px;
+        span {
+          width: 7px;
+          height: 350px;
+          background-color: $DodgerBlue;
+          display: block;
+          opacity: 0.3;
+        }
+
+        .outer-span {
+          height: 200px;
+        }
+      }
+
+      .about-main-top-cnt-bg {
+        width: 100%;
+        @include qCenter;
+        height: 600px;
+        @include bGSU;
+        background-color: ghostwhite;
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+      }
+    }
+  }
+
+  .about-main-bottom {
+    width: 100%;
+    text-align: center;
+    font-family: $M;
+    font-weight: $MReg;
+
+    .about-main-bottom-text-holder {
+      max-width: 1100px;
+      @include qCenter;
+      margin-bottom: 40px !important;
+    }
+
+    .about-main-bottom-dots {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      max-width: 140px;
+      @include qCenter;
+      padding-top: 40px !important;
+
+      span {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: rgba(167, 167, 167, 0.397);
+        animation: bounceDot infinite linear 2s;
+        position: relative;
+
+        &:first-child {
+          animation-delay: 0.5s;
+        }
+        &:nth-child(even) {
+          animation-delay: 0.8s;
+        }
+        &:last-child {
+          animation-delay: 1.1s;
+        }
+      }
+
+      @keyframes bounceDot {
+        0% {
+          top: 0;
+        }
+        25% {
+          top: 10px;
+        }
+        50% {
+          top: 0;
+        }
+        75% {
+          top: -10px;
+        }
+        100% {
+          top: 0;
+        }
+      }
+    }
+  }
+}
+
+.blur-up {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  transition: filter 3000ms 500ms, -webkit-filter 3000ms 500ms;
+}
+.blur-up.lazyloaded {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}

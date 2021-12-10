@@ -1,0 +1,171 @@
+@media all and (max-width: 1995px) {
+  #packagesTop {
+    height: 700px;
+  }
+  #packagesTop .packages-top-cnt h2 {
+    font-size: 50px;
+  }
+  #packagesTop .packages-top-cnt p {
+    font-size: 18px;
+  }
+  #packagesTop .packages-top-cnt span {
+    font-size: 16px;
+  }
+  #packagesFAQ .packages-faq-cnt .packages-faq-cnt-main,
+  #packagesFAQ
+    .packages-faq-cnt
+    .packages-faq-cnt-main
+    .packages-faq-cnt-main-inner,
+  #packagesFAQ .packages-faq-cnt {
+    max-width: 90%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #packagesFAQ
+    .packages-faq-cnt
+    .packages-faq-cnt-main
+    .packages-faq-cnt-main-inner
+    .packages-faq-item
+    label
+    h4 {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #packagesTop {
+    height: 600px;
+  }
+  #packagesTop .packages-top-cnt h2 {
+    font-size: 40px;
+  }
+  #packagesTop .packages-top-cnt p {
+    font-size: 16px;
+  }
+  #packagesTop .packages-top-cnt span {
+    font-size: 15px;
+  }
+  #packagesTop .packages-top-cnt div {
+    max-width: 400px;
+  }
+  #packagesFAQ .packages-faq-cnt .packages-faq-cnt-main,
+  #packagesFAQ
+    .packages-faq-cnt
+    .packages-faq-cnt-main
+    .packages-faq-cnt-main-inner,
+  #packagesFAQ .packages-faq-cnt {
+    max-width: 95%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #packagesFAQ
+    .packages-faq-cnt
+    .packages-faq-cnt-main
+    .packages-faq-cnt-main-inner
+    .packages-faq-item
+    label
+    h4 {
+    font-size: 18px;
+  }
+  #packagesFAQ
+    .packages-faq-cnt
+    .packages-faq-cnt-main
+    .packages-faq-cnt-main-inner
+    .packages-faq-item
+    .answer-holder
+    .answer-holder-inner
+    p {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media all and (max-width: 768px) {
+  #packagesTop {
+    height: 100%;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+  #packagesTop .packages-top-cnt h2 {
+    font-size: 25px;
+  }
+  #packagesTop .packages-top-cnt p {
+    font-size: 14px;
+    max-width: 90%;
+    margin: auto !important;
+    padding-top: 0px !important;
+  }
+  #packagesTop .packages-top-cnt span {
+    font-size: 15px;
+  }
+  #packagesTop .packages-top-cnt div {
+    max-width: 240px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  #packagesTop .packages-top-cnt div a {
+    font-size: 13px;
+    margin-top: 10px !important;
+  }
+  #packagesFAQ .packages-faq-cnt .packages-faq-cnt-main,
+  #packagesFAQ
+    .packages-faq-cnt
+    .packages-faq-cnt-main
+    .packages-faq-cnt-main-inner,
+  #packagesFAQ .packages-faq-cnt {
+    max-width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #packagesFAQ .packages-faq-cnt .packages-faq-cnt-main {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  #packagesFAQ
+    .packages-faq-cnt
+    .packages-faq-cnt-main
+    .packages-faq-cnt-main-inner {
+    margin-top: 30px !important;
+  }
+  #packagesFAQ .packages-faq-cnt .packages-faq-cnt-main h3 {
+    font-size: 23px;
+  }
+  #packagesFAQ
+    .packages-faq-cnt
+    .packages-faq-cnt-main
+    .packages-faq-cnt-main-inner
+    .packages-faq-item
+    label
+    h4 {
+    font-size: 14px;
+    white-space: pre-wrap;
+  }
+  #packagesFAQ
+    .packages-faq-cnt
+    .packages-faq-cnt-main
+    .packages-faq-cnt-main-inner
+    .packages-faq-item
+    label
+    .fa-icon {
+    font-size: 12px;
+  }
+  #packagesFAQ
+    .packages-faq-cnt
+    .packages-faq-cnt-main
+    .packages-faq-cnt-main-inner
+    .packages-faq-item
+    .answer-holder
+    .answer-holder-inner
+    p {
+    font-size: 14px;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #packagesTop .packages-top-cnt div {
+    max-width: 400px;
+  }
+}

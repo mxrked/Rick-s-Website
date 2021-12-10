@@ -1,0 +1,10 @@
+* Ask client if they would like for me to deploy the website onto their hosting server
+
+======================
+INSIDE package.json
+- change homepage:path/of/website
+
+
+INSIDE App.js
+- change basename="/path/of/website"
+

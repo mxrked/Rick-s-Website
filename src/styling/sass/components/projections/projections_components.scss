@@ -1,0 +1,189 @@
+@import "../../abstracts/abstracts-dir.scss";
+@import "../../base/base-dir.scss";
+@import "../../themes/themes-dir.scss";
+
+//! Projections Top
+#projectionsTop {
+  height: 700px;
+  width: 100%;
+  @include tLCenter;
+
+  .projections-top-cnt {
+    width: 100%;
+    text-align: center;
+
+    h2 {
+      font-family: $M;
+      font-weight: $MBold;
+      font-size: 70px;
+    }
+
+    p {
+      font-family: $M;
+      font-weight: $MReg;
+      font-size: 23px;
+      padding-top: 20px !important;
+      padding-bottom: 50px !important;
+    }
+
+    span {
+      font-family: $M;
+      font-weight: $MSemi;
+      font-size: 20px;
+    }
+
+    div {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      max-width: 600px;
+      padding-top: 30px !important;
+      @include qCenter;
+
+      a {
+        background-color: $AzureRadiance;
+        color: white;
+        font-family: $M;
+        font-weight: $MSemi;
+        font-size: 16px;
+        padding: 10px !important;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $DodgerBlue;
+        }
+      }
+    }
+  }
+}
+
+//! Projections Main
+#projectionsMain {
+  width: 100%;
+  @include tLCenter;
+
+  .projections-main-cnt {
+    width: 100%;
+
+    .projections-main-cnt-box {
+      overflow: hidden;
+      white-space: nowrap;
+      width: 100%;
+      height: 100%;
+
+      .projections-main-cnt-row {
+        .projections-main-cnt-item {
+          height: 600px;
+          @include tLCenter;
+          margin-bottom: 25px !important;
+
+          .projections-main-cnt-item-inner {
+            width: 100%;
+            max-width: 97% !important;
+            @include qCenter;
+            position: relative;
+            overflow: hidden;
+            height: 100%;
+            cursor: pointer;
+
+            &:hover {
+              .projections-item-bg {
+                transform: scale(1.1);
+              }
+
+              .projections-item-overlay {
+                background-color: rgba(0, 0, 0, 0.757);
+
+                div {
+                  button {
+                    color: black;
+                    background-color: white;
+                  }
+                }
+              }
+            }
+
+            .projections-item-bg {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              top: 0;
+              left: 0;
+              transition: 0.3s ease-in-out;
+              @include bGSU;
+            }
+
+            .projections-item-overlay {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              top: 0;
+              left: 0;
+              z-index: 100;
+              @include tLCenter;
+              background-color: rgba(0, 0, 0, 0.5);
+
+              div {
+                button {
+                  background-color: transparent;
+                  color: white;
+                  font-family: $M;
+                  font-weight: $MSemi;
+                  border: 2px solid white !important;
+                  padding: 10px !important;
+                  display: block;
+                  font-size: 27px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//! Projections Modals
+#projectionsModals {
+  position: relative;
+  z-index: 600;
+
+  .projections-modal {
+    .projections-modal-darken {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.657);
+      cursor: pointer;
+    }
+
+    .projections-modal-main {
+      width: 100%;
+      height: 900px;
+      max-width: 1000px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .projections-modal-main-cnt {
+        width: 100%;
+        height: 900px;
+        background-color: white;
+        @include bGSU;
+      }
+    }
+  }
+}
+
+.blur-up {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  transition: filter 3000ms 500ms, -webkit-filter 3000ms 500ms;
+}
+.blur-up.lazyloaded {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}

@@ -1,0 +1,156 @@
+@import "../../abstracts/abstracts-dir.scss";
+@import "../../base/base-dir.scss";
+@import "../../themes/themes-dir.scss";
+
+footer {
+  .footer-box {
+    background-color: rgb(32, 32, 32);
+    .footer-row {
+      max-width: 85%;
+      @include qCenter;
+
+      .footer-side {
+        height: 400px;
+        @include tLCenter;
+
+        .footer-side-cnt {
+          width: 100%;
+          @include tLCenter;
+        }
+      }
+
+      #footerTop {
+        height: 200px;
+
+        .footer-side-cnt {
+          border-bottom: 3px solid rgba(255, 255, 255, 0.034);
+
+          #footerLogo {
+            div {
+              padding-bottom: 30px !important;
+              a {
+                font-family: $M;
+
+                h1 {
+                  color: white;
+                  font-weight: $MBold;
+                  font-size: 60px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      #footerMidL {
+        #footerLinks {
+          width: 100%;
+          max-width: 500px;
+          @include qCenter;
+          .footer-links-holder {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 70%;
+
+            div {
+              h5 {
+                font-family: $M;
+                font-weight: $MBold;
+                color: white;
+                font-size: 25px;
+              }
+
+              ul {
+                font-family: $M;
+
+                li {
+                  margin-top: 10px !important;
+                  margin-bottom: 10px !important;
+                  a {
+                    font-weight: $MSemi;
+                    color: white;
+                    font-size: 21px;
+
+                    &:hover {
+                      color: $AzureRadiance;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      #footerMidR {
+        #footerContact {
+          .footer-contact-holder {
+            margin-bottom: auto !important;
+            padding-bottom: 10px !important;
+
+            .footer-contact-holder-set {
+              display: block;
+
+              h5 {
+                font-family: $M;
+                font-weight: $MBold;
+                color: white;
+                font-size: 25px;
+                text-align: right;
+              }
+
+              a {
+                font-size: 23px;
+                font-family: $M;
+                font-weight: $MSemi;
+                color: white;
+                margin-top: 7px !important;
+                margin-bottom: 10px !important;
+                display: block;
+                &:hover {
+                  color: $AzureRadiance;
+                }
+              }
+
+              &:nth-child(even) {
+                display: flex;
+                justify-content: space-between;
+                max-width: 100px;
+                align-items: center;
+                margin-left: auto !important;
+
+                div {
+                  a {
+                    font-size: 30px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #footerBottom {
+    background-color: rgb(29, 29, 29);
+
+    @include tLCenter;
+    padding: 10px !important;
+
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: $M;
+      font-weight: $MSemi;
+      color: rgba(255, 255, 255, 0.26);
+
+      p {
+        padding-left: 20px !important;
+      }
+    }
+  }
+}

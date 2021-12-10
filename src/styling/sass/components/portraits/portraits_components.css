@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Playball&display=swap");
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin-bottom: 0 !important;
+}
+
+body button,
+body input,
+body textarea {
+  border: none !important;
+  outline: none !important;
+}
+
+body button:focus,
+body input:focus,
+body textarea:focus {
+  outline: none !important;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+body .container,
+body .container-fluid,
+body .row,
+body .row > *,
+body .col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body #mainBody {
+  position: relative;
+}
+
+body #mainBodyInner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .deactive {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body .page-transition {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body .full-second {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#portraitsTop {
+  height: 700px;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#portraitsTop .portraits-top-cnt {
+  width: 100%;
+  text-align: center;
+}
+
+#portraitsTop .portraits-top-cnt h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 70px;
+}
+
+#portraitsTop .portraits-top-cnt p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  padding-top: 20px !important;
+  padding-bottom: 50px !important;
+}
+
+#portraitsTop .portraits-top-cnt span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#portraitsTop .portraits-top-cnt div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 600px;
+  padding-top: 30px !important;
+  margin: auto !important;
+}
+
+#portraitsTop .portraits-top-cnt div a {
+  background-color: #0c85ff;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px !important;
+  cursor: pointer;
+}
+
+#portraitsTop .portraits-top-cnt div a:hover {
+  background-color: #379cff;
+}
+
+#portraitsMain {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#portraitsMain .portraits-main-cnt {
+  width: 100%;
+}
+
+#portraitsMain .portraits-main-cnt .portraits-main-cnt-box {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  height: 100%;
+}
+
+#portraitsMain .portraits-main-cnt .portraits-main-cnt-box .portraits-main-cnt-row .portraits-main-cnt-item {
+  height: 600px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin-bottom: 25px !important;
+}
+
+#portraitsMain .portraits-main-cnt .portraits-main-cnt-box .portraits-main-cnt-row .portraits-main-cnt-item .portraits-main-cnt-item-inner {
+  width: 100%;
+  max-width: 97% !important;
+  margin: auto !important;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  cursor: pointer;
+}
+
+#portraitsMain .portraits-main-cnt .portraits-main-cnt-box .portraits-main-cnt-row .portraits-main-cnt-item .portraits-main-cnt-item-inner:hover .portraits-item-bg {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#portraitsMain .portraits-main-cnt .portraits-main-cnt-box .portraits-main-cnt-row .portraits-main-cnt-item .portraits-main-cnt-item-inner:hover .portraits-item-overlay {
+  background-color: rgba(0, 0, 0, 0.757);
+}
+
+#portraitsMain .portraits-main-cnt .portraits-main-cnt-box .portraits-main-cnt-row .portraits-main-cnt-item .portraits-main-cnt-item-inner:hover .portraits-item-overlay div button {
+  color: black;
+  background-color: white;
+}
+
+#portraitsMain .portraits-main-cnt .portraits-main-cnt-box .portraits-main-cnt-row .portraits-main-cnt-item .portraits-main-cnt-item-inner .portraits-item-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#portraitsMain .portraits-main-cnt .portraits-main-cnt-box .portraits-main-cnt-row .portraits-main-cnt-item .portraits-main-cnt-item-inner #pIBGOne {
+  background-position: 40% 20%;
+}
+
+#portraitsMain .portraits-main-cnt .portraits-main-cnt-box .portraits-main-cnt-row .portraits-main-cnt-item .portraits-main-cnt-item-inner #pIBGTwo {
+  background-position: 40% 20%;
+}
+
+#portraitsMain .portraits-main-cnt .portraits-main-cnt-box .portraits-main-cnt-row .portraits-main-cnt-item .portraits-main-cnt-item-inner .portraits-item-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#portraitsMain .portraits-main-cnt .portraits-main-cnt-box .portraits-main-cnt-row .portraits-main-cnt-item .portraits-main-cnt-item-inner .portraits-item-overlay div button {
+  background-color: transparent;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border: 2px solid white !important;
+  padding: 10px !important;
+  display: block;
+  font-size: 27px;
+}
+
+#portraitsModals {
+  position: relative;
+  z-index: 600;
+}
+
+#portraitsModals #portMOne .portraits-modal-main .portraits-modal-main-cnt {
+  background-position: 20% 10%;
+}
+
+#portraitsModals .portraits-modal .portraits-modal-darken {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.657);
+  cursor: pointer;
+}
+
+#portraitsModals .portraits-modal .portraits-modal-main {
+  width: 100%;
+  height: 900px;
+  max-width: 1000px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#portraitsModals .portraits-modal .portraits-modal-main .portraits-modal-main-cnt {
+  width: 100%;
+  height: 900px;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.blur-up {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  transition: filter 3000ms 500ms, -webkit-filter 3000ms 500ms;
+}
+
+.blur-up.lazyloaded {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+/*# sourceMappingURL=portraits_components.css.map */

@@ -1,0 +1,545 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Playball&display=swap");
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin-bottom: 0 !important;
+}
+
+body button,
+body input,
+body textarea {
+  border: none !important;
+  outline: none !important;
+}
+
+body button:focus,
+body input:focus,
+body textarea:focus {
+  outline: none !important;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+body .container,
+body .container-fluid,
+body .row,
+body .row > *,
+body .col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body #mainBody {
+  position: relative;
+}
+
+body #mainBodyInner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .deactive {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body .page-transition {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body .full-second {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#indexTop {
+  position: relative;
+  width: 100%;
+  height: 1200px;
+}
+
+#indexTop .slick-slider {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#indexTop .slick-slider .slick-dots {
+  bottom: 30px;
+  z-index: 300;
+}
+
+#indexTop .slick-slider .slick-dots li:nth-child(even) {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
+
+#indexTop .slick-slider .slick-dots li button::before {
+  color: white;
+  font-size: 30px;
+}
+
+#indexTop .slick-slider .slick-slide {
+  position: relative;
+  height: 1200px !important;
+  top: 0;
+  left: 0;
+  background-color: ghostwhite;
+}
+
+#indexTop .slick-slider .slick-slide .index-top-slide-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#indexTop .slick-slider .slick-slide #iTS1 {
+  background-position: 0% 20%;
+}
+
+#indexTop .slick-slider .slick-slide #iTS2 {
+  background-position: 0% 20%;
+}
+
+#indexTop .slick-slider .slick-slide #iTS3 {
+  background-position: 0% 10%;
+}
+
+#indexTop .index-top-cnt-main {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: white;
+}
+
+#indexTop .index-top-cnt-main .index-top-cnt-main-inner h2 {
+  font-family: "Playball", cursive;
+  font-size: clamp(8rem, 7vw, 8rem);
+}
+
+#indexTop .index-top-cnt-main .index-top-cnt-main-inner h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: clamp(2rem, 3vw, 3rem);
+  padding-bottom: 40px !important;
+}
+
+#indexTop .index-top-cnt-main .index-top-cnt-main-inner div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 500px;
+  margin: auto !important;
+}
+
+#indexTop .index-top-cnt-main .index-top-cnt-main-inner div a {
+  background-color: #0c85ff;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 10px !important;
+  cursor: pointer;
+}
+
+#indexTop .index-top-cnt-main .index-top-cnt-main-inner div a:hover {
+  background-color: #379cff;
+}
+
+#indexInfo {
+  margin-top: 250px !important;
+  margin-bottom: 250px !important;
+  margin: auto !important;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed !important;
+  position: relative;
+  max-width: 94.6%;
+}
+
+#indexInfo .index-info-cnt {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: white;
+}
+
+#indexInfo .index-info-cnt .index-info-cnt-top {
+  height: 400px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#indexInfo .index-info-cnt .index-info-cnt-top h2 {
+  font-family: "Playball", cursive;
+  font-size: clamp(5rem, 6vw, 6rem);
+}
+
+#indexInfo .index-info-cnt .index-info-cnt-top p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  max-width: 80%;
+  padding-top: 20px !important;
+  margin: auto !important;
+}
+
+#indexInfo .index-info-cnt .index-info-cnt-sub {
+  height: 200px;
+  width: 100%;
+}
+
+#indexInfo .index-info-cnt .index-info-cnt-sub div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 200px;
+  margin: auto !important;
+}
+
+#indexInfo .index-info-cnt .index-info-cnt-sub div a {
+  font-size: 40px;
+  color: white;
+}
+
+#indexInfo .index-info-cnt .index-info-cnt-sub div a:hover {
+  color: #0c85ff;
+}
+
+#indexPortfolio {
+  position: relative;
+  margin-top: 250px !important;
+  margin-bottom: 250px !important;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  height: 550px;
+}
+
+#indexPortfolio .slick-slider {
+  width: 100%;
+  max-width: 94.6%;
+  position: absolute;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  top: 0;
+  left: 50%;
+  height: 550px;
+  background-color: ghostwhite;
+  overflow: hidden;
+}
+
+#indexPortfolio .slick-slider .slick-prev {
+  left: 0% !important;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.178);
+  width: 100%;
+  height: 100%;
+  max-width: 80px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#indexPortfolio .slick-slider .slick-prev::before {
+  color: white;
+  font-size: 40px;
+}
+
+#indexPortfolio .slick-slider .slick-prev:hover {
+  background-color: rgba(0, 0, 0, 0.335);
+}
+
+#indexPortfolio .slick-slider .slick-next {
+  right: 0% !important;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.178);
+  width: 100%;
+  height: 100%;
+  max-width: 80px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#indexPortfolio .slick-slider .slick-next::before {
+  color: white;
+  font-size: 40px;
+}
+
+#indexPortfolio .slick-slider .slick-next:hover {
+  background-color: rgba(0, 0, 0, 0.335);
+}
+
+#indexPortfolio .slick-slider .index-portfolio-slide {
+  width: 100%;
+  height: 550px;
+  position: relative;
+  z-index: 10;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#indexPortfolio .slick-slider .index-portfolio-slide:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#indexPortfolio .slick-slider .index-portfolio-slide .index-portfolio-slide-cnt {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: rgba(0, 0, 0, 0.657);
+  cursor: pointer;
+}
+
+#indexPortfolio .slick-slider .index-portfolio-slide .index-portfolio-slide-cnt button {
+  display: block;
+  padding: 10px !important;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 27px;
+}
+
+#indexPortfolio .slick-slider .index-portfolio-slide .index-portfolio-slide-cnt button:hover {
+  color: black;
+  background-color: white;
+}
+
+#indexPortfolio .slick-slider #IPS1 {
+  background-position: 0 40%;
+}
+
+#indexPortfolio .slick-slider #IPS2 {
+  background-position: 0 30%;
+}
+
+#indexPortfolio .slick-slider #IPS3 {
+  background-position: 0 20%;
+}
+
+#indexPortfolio .slick-slider #IPS4 {
+  background-position: 0 20%;
+}
+
+#indexPortfolio .slick-slider #IPS5 {
+  background-position: 0 40%;
+}
+
+#indexPortfolio #indexModals {
+  position: relative;
+  z-index: 600;
+}
+
+#indexPortfolio #indexModals .index-modal .index-modal-darken {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.657);
+  cursor: pointer;
+}
+
+#indexPortfolio #indexModals .index-modal .index-modal-main {
+  width: 100%;
+  height: 600px;
+  max-width: 1000px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#indexPortfolio #indexModals .index-modal .index-modal-main .index-modal-main-cnt {
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#indexServices {
+  position: relative;
+  margin-top: 250px !important;
+  margin-bottom: 250px !important;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+}
+
+#indexServices .index-services-box {
+  max-width: 95%;
+  margin: auto !important;
+}
+
+#indexServices .index-services-box .index-services-row .index-service-item-holder {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 450px;
+  padding: 5px !important;
+}
+
+#indexServices .index-services-box .index-services-row .index-service-item-holder .index-service-item {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+#indexServices .index-services-box .index-services-row .index-service-item-holder .index-service-item:hover .index-service-item-bg {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#indexServices .index-services-box .index-services-row .index-service-item-holder .index-service-item:hover .index-service-item-cnt {
+  background-color: rgba(0, 0, 0, 0.657);
+}
+
+#indexServices .index-services-box .index-services-row .index-service-item-holder .index-service-item:hover .index-service-item-cnt .index-service-item-cnt-inner div p {
+  color: black;
+  background-color: white;
+}
+
+#indexServices .index-services-box .index-services-row .index-service-item-holder .index-service-item .index-service-item-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 105% !important;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#indexServices .index-services-box .index-services-row .index-service-item-holder .index-service-item .index-service-item-cnt {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.435);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#indexServices .index-services-box .index-services-row .index-service-item-holder .index-service-item .index-service-item-cnt .index-service-item-cnt-inner {
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  color: white;
+}
+
+#indexServices .index-services-box .index-services-row .index-service-item-holder .index-service-item .index-service-item-cnt .index-service-item-cnt-inner span {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#indexServices .index-services-box .index-services-row .index-service-item-holder .index-service-item .index-service-item-cnt .index-service-item-cnt-inner div {
+  padding-top: 30px !important;
+}
+
+#indexServices .index-services-box .index-services-row .index-service-item-holder .index-service-item .index-service-item-cnt .index-service-item-cnt-inner div p {
+  border: 2px solid white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+  padding: 10px !important;
+  max-width: 110px;
+  margin: auto !important;
+}
+
+.blur-up {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  transition: filter 3000ms 500ms, -webkit-filter 3000ms 500ms;
+}
+
+.blur-up.lazyloaded {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+/*# sourceMappingURL=index_components.css.map */
